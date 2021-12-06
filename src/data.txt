@@ -1,0 +1,22 @@
+Trees|Trees are used to represent relationships. Previous chapters informally used tree diagrams to represent the relationships between the calls of a recursive algorithm.|Trees
+Vertex|A box or node of a tree.|Trees
+Edges|The Lines between the nodes (Boxes) are called edges.|Trees
+Hierarchical|Intuitively, “hierarchical” means that a “parent-child” relationship exists between the nodes in the tree.|Trees
+Parant and Child|If an edge is between node n and node m, and node n is above node m in the tree, then n is the parent of m, and m is a child of n.|Trees
+Siblings|Children of the same parent are called siblings.|Trees
+Oldest or First Child|The Leftmost Child of a parent node.|Trees
+Root|Each node in a tree has at most one parent, and exactly one node—called the root of the tree—has no parent.|Trees
+Leaf|A node that has no children is called a leaf of the tree.|Trees
+Ancestor and Descendant|The parent-child relationship between the nodes is generalized to the relationships ancestor and descendant.|Trees
+Subtree|A subtree in a tree is any node in the tree together with all of its descendants.|Trees
+Subtree of a node n|A subtree of a node n is a subtree rooted at a child of n.|Trees
+General Tree|Formally, a general tree is a set T of one or more nodes such that T is partitioned into disjoint subsets: A single node r, the root, and Sets that are general trees, called subtrees of r.|Trees
+N-ary Tree| An n-ary tree is a set T of nodes that is either empty or partitioned into disjoint subsets: A single node r, the root, and n possibly empty sets that are n-ary subtrees of r.|Trees
+Binary Tree|If an n-ary tree has the restriction that every node has at most two children, it is a binary tree. Formally, a binary tree is a set T of nodes that is either empty or partitioned into disjoint subsets: A single node r, the root, and Two possibly empty sets that are binary trees, called left and right subtrees of r.|Trees
+Left and Right Subtrees|Two possibly empty Sets that are binary trees, called left and right subtrees of r. Notice that the formal definition agrees with this intuitive one: If r is the root of T, then the binary tree T(L) is the left subtree of node r and T(R) is the right subtree of node r. If T(L) is not empty, its root is the left child of r, and if T(R) is not empty, its root is the right child of r. Notice that if both subtrees of a node are empty, that node is a leaf.|Trees
+Binary Search Trees|A binary search tree is a binary tree that is, in a sense, sorted according to the values in its nodes. For each node n, a binary search tree satisfies the following three properties: n’s value is greater than all values in its left subtree T(L), n’s value is less than all values in its right subtree T(L), and both TL and TR are binary search trees.|Trees
+Height of a Tree|The height of a tree is the number of nodes on the longest path from the root to a leaf|Trees
+Level of a Node n|There are other equivalent ways to define the height of a tree T. One way uses the following definition of the level of a node n: If n is the root of T, it is at level 1 and If n is not the root of T, its level is 1 greater than the level of its parent.|Trees
+Full Binary Tree|A full binary tree is of height h where all nodes that are at a level less than h have two children each.|Trees
+Complete Binary Tree|A complete binary tree of height h is a binary tree that is full down to level h – 1, with level h filled in from left to right.|Trees
+Height Balanced|Or simply Balanced. A tree is balanced if the height of any node’s right subtree differs from the height of the node’s left subtree by no more than 1.|Trees
